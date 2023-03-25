@@ -1,0 +1,40 @@
+
+	Concepts  -  this , static keywords 
+
+1) use same class Student which we created in last lab and use this keyword in Constructor 
+
+	for Constructor chaining 
+	for differentiate instance and local variables 
+
+	
+
+2) use same class  Employee which we created in last lab and use this keyword in Constructor 
+	
+3) create class Account
+
+	
+	int accId , pincode , pin 
+	String name 
+	float balance
+	static int iRate
+
+
+	with following functions
+
+		Display Menu 
+
+			1. Create Account 
+			2. Display Information of Account 
+			3. Deposit
+			4. Withdrwal
+			5. check Balance 
+			6. change iRate
+			7. calculateIntrest for 30 days 
+			8. exit
+
+	include all concepts here 
+		1) Constructor Overloading 
+		2) this , static 
+		3) instance /  static methods 
+		4) 
+			
