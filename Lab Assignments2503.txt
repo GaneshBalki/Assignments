@@ -1,7 +1,7 @@
 
 	Concepts  -  this , static keywords 
 
-1) use same class Student which we created in last lab and use this keyword in Constructor 
+1) use same class Studnet which we created in last lab and use this keyword in Constructor 
 
 	for Constructor chaining 
 	for differentiate instance and local variables 
@@ -10,9 +10,8 @@
 
 2) use same class  Employee which we created in last lab and use this keyword in Constructor 
 	
-3) create class Account
+3) create class Account 
 
-	
 	int accId , pincode , pin 
 	String name 
 	float balance
@@ -25,10 +24,10 @@
 
 			1. Create Account 
 			2. Display Information of Account 
-			3. Deposit
+			3. Deposite 
 			4. Withdrwal
 			5. check Balance 
-			6. change iRate
+			6.  change iRate
 			7. calculateIntrest for 30 days 
 			8. exit
 
