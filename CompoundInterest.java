@@ -16,21 +16,11 @@ class CompoundInterest
 
     public void formula1()
     {
-      far1=(1+rate/100);
+      far1=Math.pow((1+rate/100),times);
     }
-
-    public void power()
-     { 
-       for(int i=1;i<=time;i++)
-          {
-             result=result*far1;
-          }
-     }
-
     public void formula2()
     {
-      amt= principle*result;
-      ci=amt-principle;
+      ci=(principle*far1)-principle;
      System.out.println("The Compound Interest Is :"+ci);
 
     }
@@ -40,7 +30,6 @@ class CompoundInterest
       CompoundInterest cd = new CompoundInterest();
       cd.acceptValues();
       cd.formula1();
-      cd.power();
       cd.formula2();
 
     }
