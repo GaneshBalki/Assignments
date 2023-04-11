@@ -11,29 +11,29 @@ class Calculator
        num2=sc.nextInt();
      }
     public void sumOfNumbers()
-     {
+     {  acceptNumbers();
         int z=num1+num2;
         System.out.println("The sun of two Number is :"+ z);
      }
     public void subOfNumbers()
-     {
+     {  acceptNumbers();
         int y=num1-num2;
         System.out.println("The substraction of two Number is :"+ y);
      }
     public void multiOfNumbers()
-     {
+     {  acceptNumbers();
         int x=num1*num2;
         System.out.println("The multiplication of two Number is :"+ x);
      }
     public void divOfNumbers()
-     {
+     {  acceptNumbers();
         int w=num1/num2;
         System.out.println("The sun of two Number is :"+ w);
      }
     public static void main(String[] args)
      {
         Calculator c = new Calculator();
-        c.acceptNumbers();
+       // c.acceptNumbers();
         //c.sumOfNumbers();
         
         int choice; 
